@@ -1,4 +1,4 @@
-# Project EarlyBird - Daily Practice Process ✨
+# Project EarlyBird - Daily Coding Process ✨
 
 Welcome to Project EarlyBird's coding exercise submission process! This document outlines the steps you need to follow to submit your daily problem-solving exercises using GitHub.
 
@@ -34,14 +34,20 @@ Welcome to Project EarlyBird's coding exercise submission process! This document
      ```
      Replace `{branch_name}` with the appropriate branch name.
 
-5. **Push Your Code 📤**
+5. **Create a Folder and File 📂**
+   - Inside the repository, create a folder with your name (if you haven't created one already).
+   - Create a `.py`, `.java`, or `.js` file, as per the requirements, to resolve the problem statement.
+   - Ensure you follow clean code principles, such as using appropriate variable names, adding comments, and maintaining proper formatting.
+   - Add the problem statement as a comment at the beginning of the file.
+
+6. **Push Your Code 📤**
    - After completing the coding exercise, push your code to the branch you created using the following command:
      ```
      git push origin {branch_name}
      ```
      Replace `{branch_name}` with the name of your branch.
 
-6. **Commit and Review ✔️**
+7. **Commit and Review ✔️**
    - Before committing, make sure to review your changes and ensure everything is correct.
    - Commit your changes with an appropriate commit message:
      ```
@@ -49,7 +55,7 @@ Welcome to Project EarlyBird's coding exercise submission process! This document
      ```
      Replace `{exercise_number}` with the exercise number you worked on.
 
-7. **Create a Pull Request 🚀**
+8. **Create a Pull Request 🚀**
    - Once you have committed your changes, go to the repository page on GitHub.
    - Click on the "Pull requests" tab.
    - Click on the "New pull request" button.
