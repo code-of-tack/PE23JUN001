@@ -16,10 +16,13 @@
 
 
 
+
+
 #solution 
 
 #defining a function that counts the number of  vowels in a sentence
 def number_of_vowels(sentence):
+    
     
     #vowels
     vowel = set("aeiouAEIOU")
@@ -33,9 +36,8 @@ def number_of_vowels(sentence):
         #checking if the letter is present in the vowel
         if letter in vowel:
             count=count+1
-        #printing the number of vowels.
-    print('the sentence "',sentence, '" contains ', count ," vowels.")
-    
+    #returning the number of vowels
+    return count
     
     
 print("""Welcome to LinguaTech Pronunciation Analyzer!
@@ -45,5 +47,8 @@ Please enter a sentence to count the number of vowels:
 #taking the input from the user
 sentence=input()
 
-#calling the function to return the number of vowels
-number_of_vowels(sentence)
+#calling the function 
+num_vowel=number_of_vowels(sentence)
+
+#printing the final statement
+print('the sentence "',sentence, '" contains ', num_vowel ," vowels.")
